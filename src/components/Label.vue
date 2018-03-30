@@ -22,7 +22,7 @@ export default {
     },
     padding: {
       type: Number,
-      default: 12,
+      default: 2,
     },
     rightMargin: {
       type: Number,
@@ -103,11 +103,11 @@ export default {
         padding: `${this.padding}px`,
         'border-radius': `${this.cornerRadius}px`,
         'margin-right': `${this.rightMargin}px`,
+        'text-align': 'center',
       };
     },
     spanStyle: function() {
       return {
-        'max-width': `${this.width / 2.5}px`,
       }
     },
   }
@@ -125,10 +125,6 @@ export default {
 
 span {
   display: inline-block;
-}
-
-img {
-  float: right;
 }
 
 @media print {

@@ -86,7 +86,7 @@ export default {
       settings: {
         height: 48,
         width: 166,
-        padding: 12,
+        padding: 2,
         rightMargin: 20,
         barcodeHeightMM: 5,
         cornerRadius: 5,
